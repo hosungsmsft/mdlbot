@@ -1,7 +1,7 @@
 {
-  "name": "botbuilder-sample-searchbot",
+  "name": "botbuilder-sample-searchlibrary",
   "version": "1.0.0",
-  "description": "Bot Builder Sample - Powered Search Bots",
+  "description": "Bot Builder Sample - BotBuilder Library for handling search flows",
   "scripts": {
     "start": "node app.js"
   },
@@ -21,14 +21,7 @@
     "url": "https://github.com/Microsoft/BotBuilder-Samples.git"
   },
   "dependencies": {
-    "azure": "^2.2.1-preview",
-    "bluebird": "^3.4.7",
     "botbuilder": "^3.13.1",
-    "dotenv-extended": "^1.0.4",
-    "lodash": "^4.17.4",
-    "lorem-ipsum": "^1.0.3",
-    "request": "^2.79.0",
-    "restify": "^4.3.0",
-    "uuid": "^3.0.1"
+    "lodash": "^4.17.4"
   }
 }
